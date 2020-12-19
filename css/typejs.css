@@ -1,0 +1,181 @@
+/*! minireset.css v0.0.6 | MIT License */ html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}td:not([align]),th:not([align]){text-align:left}
+
+
+
+
+html {
+  font-size: 1rem;
+  font-family: 'Lora', serif;
+  background-color: #fff;
+}
+
+body {
+  padding:5rem 0;
+  color:#000;
+}
+
+    main {
+        max-width:60vw;
+        margin:0 auto;
+        text-align:center;
+        padding:1rem;
+    }
+
+.grid-set {
+  display: grid;
+  grid-template-columns: 30rem;
+  grid-gap:1.5rem;
+  padding:0 1rem;
+}
+
+
+img {
+    width: 100%;
+}
+
+
+  .grid-item {
+    grid-column: 1;
+  font-size: 1em;
+  text-align: center;
+  padding-top:1rem;
+
+}
+
+
+a {
+  text-decoration: underline;
+  color: #ae7f3d;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ae7f3d;
+}
+
+
+.typed_wrap h1 {
+  display: inline;
+}
+
+/*Add custom cursor so it auto inherits font styles*/
+.typed::after {
+  content: '|';
+  display: inline;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+  display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.btns {
+  display: block;
+  width: 400px;
+  margin: 0;
+  padding: 30px 0 0 30px;
+}
+.btns a {
+  display: inline-block;
+  margin-left: 5px;
+}
+.btns a:first-child{margin-left:0}
+.btn {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ecf0f1;
+  text-decoration: none;
+}
+a .btn {
+  cursor: pointer;
+  border: 1.5px solid #ecf0f1;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px;
+  list-style-type: none;
+  transition: all .3s;
+}
+
+.btn:hover {
+  background: #ecf0f1;
+  color: #34495e;
+}
+
+
+
+
+
+
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Lora', serif;
+  margin-bottom:.5rem;
+}
+
+h1 {
+  font-size:4rem;
+  font-weight:500;
+  font-style: italic;
+}
+h2 {
+  font-size:1.75rem;
+}
+h3 {
+  font-size:1.5rem;
+  font-weight:400;
+
+}
+h4 {
+  font-size:1rem;
+}
+
+
+li {
+  font-size: 1.25rem;
+  font-family: 'Lora', serif;
+  line-height: 1.5;
+  padding: .5rem 0;
+}
+
+.artist-name {
+  font-family: 'Work Sans', sans-serif;
+  line-height: 1;
+  font-weight:700;
+  margin-top:.5rem;
+}
+
+.exhibit-title {
+  color:#777;
+}
+
+
+p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin-bottom:1rem;
+}
+
+
+

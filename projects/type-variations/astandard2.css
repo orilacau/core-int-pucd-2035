@@ -3,18 +3,18 @@
 
 html {
   font-size: 1rem;
-  font-family: 'Ultra', Ultra;
+  font-family: 'Rozha One', serif;;
   background-color: #89cff0;
 }
 
 body {
   padding:5rem 0;
-  color:#C7ea46;
+  color:#000;
 }
 
 a {
   text-decoration: underline;
-  color: #ff0080;
+  color: #ae7f3d;
 }
 
 a:hover {
@@ -24,33 +24,35 @@ a:hover {
 
 main {
   display:grid;
-  grid-template-columns: 90% 1fr ;
+  grid-template-columns: 85% ;
   grid-auto-rows:min-content;
-  grid-gap:2rem;
-  width: 40vw;
+  grid-gap:3rem;
+  max-width: 30vw;
   margin: 0 auto;
 }
 
+
+
 .intro-block {
-  grid-column:1.5 / 3;
+  grid-column:40%;
 }
 
-.statement {
-  grid-column:0 / 3;
+.article {
+  grid-column:1/4;
 }
 
 .projects {
-  grid-column:5 / 5;
+  grid-column:40%;
 }
 
 .item {
-  grid-column:1;
+  grid-column:3;
   border-top: 1px solid #ccc;
   padding: 1rem 0;
 }
 
 .definition {
-  grid-column:2;
+  grid-column:4;
   border-top: 1px solid #ccc;
   padding: 1rem 0;
 }
@@ -58,20 +60,21 @@ main {
 
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Ultra', Ultra;
+  font-family: 'Rozha One', serif;;
   margin-bottom:1rem;
 }
 
 h1 {
   font-size:3.375rem;
   font-weight:700;
+  font-style: italic;
 }
 h2 {
   font-size:2.25rem;
 }
 h3 {
   font-size:1.5rem;
-  font-weight:300;
+  font-weight:400;
 
 }
 h4 {
@@ -81,33 +84,39 @@ h4 {
 
 li {
   font-size: 1.25rem;
-  font-family: 'Ultra', sans-serif;
+  font-family: 'Rozha One', serif;;
   line-height: 1.5;
   padding: .5rem 0;
 }
 
 p {
-  font-size: 1.125rem;
-  line-height: 1.5;
+  font-family: 'Rozha One', serif;;
+  font-size: 1rem;
+  line-height: 1;
   margin-bottom:1rem;
-  font-weight:300;
 }
 
 .location {
   font-size: 1rem;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Rozha One', serif;
   text-transform: uppercase;
   line-height: 1.5;
 }
 
+.pull-quote {
+  font-size: 0.75rem;
+  font-family: 'Rozha One', serif;;
+  line-height: 1;
+  font-weight:400;
+}
+
 img {
   display: block;
-  margin: 100 auto;
+  margin: 0 auto;
 }
 
 figcaption {
   font-size: .875rem;
-  font-family: 'Merriweather Sans', sans-serif;
-  text-transform: uppercase;
+  font-family: 'Rozha One', serif;;
   padding-top: 1rem;
 }

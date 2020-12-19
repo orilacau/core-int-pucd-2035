@@ -1,0 +1,124 @@
+html {
+  font-size: 1rem;
+  font-family: font-family: 'Codystar', cursive;;
+  background-color: #89cff0;
+}
+
+body {
+  padding:5rem 0;
+  color:#000;
+}
+
+a {
+  text-decoration: underline;
+  color: #ae7f3d;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ae7f3d;
+}
+
+main {
+  display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100px 100px 100px;
+
+  grid-gap:3rem;
+  max-width: 30vw;
+  margin: 40px;
+}
+
+
+
+.intro-block {
+  grid-area: sidebar;
+  font-family: 'Bungee Shade', cursive;
+}
+
+.article {
+ grid-area: content;
+}
+
+.projects {
+    grid-area: header;
+}
+
+
+.item {
+  grid-column:3;
+  border-top: 1px solid #ccc;
+  padding: 1rem 0;
+}
+
+.definition {
+  grid-column:4;
+  border-top: 1px solid #ccc;
+  padding: 1rem 0;
+}
+
+
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Bungee Shade', cursive;
+  margin-bottom:1rem;
+}
+
+h1 {
+  font-size:7rem;
+  font-weight:700;
+  font-style: italic;
+}
+h2 {
+  font-size:2.25rem;
+}
+h3 {
+  font-size:2rem;
+  font-weight:400;
+
+}
+h4 {
+  font-size:1rem;
+}
+
+
+li {
+  font-size: 1.25rem;
+  font-family: 'Oswald', sans-serif;
+  line-height: 1.5;
+  padding: .5rem 0;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  margin-bottom:1rem;
+}
+
+.location {
+  font-size: 0.9rem;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  line-height: 3;
+}
+
+.pull-quote {
+  font-size: 0.9rem;
+  font-family: 'Oswald', sans-serif;
+  line-height: 2;
+  font-weight:400;
+     grid-column: 1 ;
+    grid-row: 2 ;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-size: .875rem;
+  font-family: 'Oswald', sans-serif;
+  padding-top: 1rem;
+}

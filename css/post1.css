@@ -1,0 +1,107 @@
+/*! minireset.css v0.0.6 | MIT License */ html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}td:not([align]),th:not([align]){text-align:left}
+
+
+
+
+html {
+  font-size: 3rem;
+  font-family: 'Londrina Outline', cursive;
+  background-color: #000;
+}
+
+body {
+  padding:5rem 0;
+  color:#FFFFFF;
+}
+
+a {
+  text-decoration: underline;
+  color: #ae7f3d;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ae7f3d;
+}
+
+
+
+    main {
+        max-width:77em;
+        margin:0 auto;
+    }
+
+.grid-set {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 2fr));
+  grid-gap:1.5rem;
+  padding:0 1rem;
+}
+
+
+img {
+    width: 100%;
+}
+
+
+    .grid-item {
+  font-size: 2rem;
+  text-align: center;
+  padding-top:1rem;
+
+}
+
+
+
+
+h1, h2, h3, h4, h5 {
+ font-family: 'Londrina Outline', cursive;
+  margin-bottom:.5rem;
+}
+
+h1 {
+  font-size:1rem;
+  font-weight:700;
+  font-style: italic;
+}
+h2 {
+  font-size:1rem;
+}
+h3 {
+  font-size:1rem;
+  font-weight:400;
+
+}
+h4 {
+  font-size:1rem;
+}
+
+
+li {
+  font-size: 1rem;
+  font-family: 'Londrina Outline', cursive;
+  line-height: 1.5;
+  padding: .5rem 0;
+}
+
+.artist-name {
+  font-family: 'Londrina Outline', cursive;
+  line-height: 1;
+  font-weight:700;
+  margin-top:.5rem;
+}
+
+.exhibit-title {
+  color:#777;
+}
+
+
+p {
+ font-family: 'Londrina Outline', cursive;
+  font-size: 0.7rem;
+  line-height: 1.5;
+  margin-bottom:1rem;
+}
+
+
+

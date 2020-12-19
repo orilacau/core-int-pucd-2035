@@ -1,0 +1,134 @@
+html {
+  font-size: 1rem;
+  background-color: #89cff0;
+}
+
+body {
+  padding:5rem 0;
+  color:#000;
+  margin: 40px;
+}
+
+a {
+  text-decoration: underline;
+  color: #ae7f3d;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ae7f3d;
+}
+
+main {
+  display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100px 100px 100px;
+
+  grid-gap:3rem;
+  max-width: 30vw;
+  margin: 40px;
+}
+
+
+
+.intro-block {
+   display: grid;
+  grid-gap: 40px;
+  grid-template-columns: minmax(100px, 6fr) 200px 200px;
+font-family: 'Concert One', cursive;
+ color:#C7ea46;
+}
+
+.article {
+ display: grid;
+  grid-gap: 10px;
+  grid-template-columns: minmax(300px, 4fr) 200px 200px;
+font-family: 'Rock Salt', cursive;
+  color:#C7ea46;
+}
+
+.projects {
+   display: grid;
+  grid-gap: 10px;
+  grid-template-columns: minmax(500px, 3fr) 200px 200px;
+ font-family: 'Rock Salt', cursive;
+    color:#C7ea46;
+}
+
+
+.item {
+  grid-column:3;
+  border-top: 1px solid #ccc;
+  padding: 1rem 0;
+}
+
+.definition {
+  grid-column:4;
+  border-top: 1px solid #ccc;
+  padding: 1rem 0;
+}
+
+
+
+h1, h2, h3, h4, h5 {
+font-family: 'Concert One', cursive;
+  margin-bottom:1rem;
+}
+
+h1 {
+  font-size:7rem;
+  font-weight:700;
+  font-style: italic;
+}
+h2 {
+  font-size:2.25rem;
+}
+h3 {
+  font-size:2rem;
+  font-weight:400;
+
+}
+h4 {
+  font-size:1rem;
+}
+
+
+li {
+  font-size: 1.25rem;
+font-family: 'Concert One', cursive;
+  line-height: 1.5;
+  padding: .5rem 0;
+}
+
+p {
+  font-family: 'Rock Salt', cursive;
+  font-size: 1rem;
+  line-height: 1;
+  margin-bottom:1rem;
+}
+
+.location {
+  font-size: 0.9rem;
+ font-family: 'Rock Salt', cursive;
+  text-transform: uppercase;
+  line-height: 3;
+}
+
+.pull-quote {
+  font-size: 10rem;
+ font-family: 'Rock Salt', cursive;
+  line-height: 2;
+  font-weight:400;
+     grid-column: 1 ;
+    grid-row: 2 ;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+font-family: 'Sigmar One', cursive;
+  padding-top: 1rem;
+}
